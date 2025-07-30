@@ -1,0 +1,16 @@
+# Some random files
+*.js
+settings.json
+leaderboard.json
+
+# Ignore shell snapshots
+shell-snapshots
+
+# Ignore stat sig
+statsig
+
+# Ignore projects for now
+projects
+
+# Ignore todos
+todos
