@@ -1,34 +1,7 @@
 ---
 name: backend-architect
 description: |
-  Use this agent when designing APIs, building server-side logic, implementing databases, or architecting scalable backend systems. This agent specializes in creating robust, secure, and performant backend services. Examples:
-  
-  <example>
-  Context: Designing a new API
-  user: "We need an API for our social sharing feature"
-  assistant: "I'll design a RESTful API with proper authentication and rate limiting. Let me use the backend-architect agent to create a scalable backend architecture."
-  <commentary>
-  API design requires careful consideration of security, scalability, and maintainability.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Database design and optimization
-  user: "Our queries are getting slow as we scale"
-  assistant: "Database performance is critical at scale. I'll use the backend-architect agent to optimize queries and implement proper indexing strategies."
-  <commentary>
-  Database optimization requires deep understanding of query patterns and indexing strategies.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Implementing authentication system
-  user: "Add OAuth2 login with Google and GitHub"
-  assistant: "I'll implement secure OAuth2 authentication. Let me use the backend-architect agent to ensure proper token handling and security measures."
-  <commentary>
-  Authentication systems require careful security considerations and proper implementation.
-  </commentary>
-  </example>
+  Use this agent when designing APIs, building server-side logic, implementing databases, or architecting scalable backend systems. Specializes in creating robust, secure, and performant backend services with proper authentication, database optimization, and system architecture design.
   
 color: purple
 tools: Write, Read, MultiEdit, Bash, Grep

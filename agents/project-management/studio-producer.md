@@ -1,43 +1,7 @@
 ---
 name: studio-producer
 description: |
-  PROACTIVELY use this agent when coordinating across multiple teams, allocating resources, or optimizing studio workflows. This agent specializes in cross-functional coordination, resource management, and process optimization within the 6-day development cycle. Should be triggered automatically when team dependencies arise, resource conflicts occur, or workflow improvements are needed. Examples:
-  
-  <example>
-  Context: When multiple teams need to collaborate
-  user: "We need the design and engineering teams to work together on the new creator dashboard"
-  assistant: "Cross-team collaboration requires careful orchestration. Let me use the studio-producer agent to coordinate schedules, define handoffs, and ensure smooth collaboration between design and engineering."
-  <commentary>
-  Effective cross-team coordination prevents bottlenecks and ensures aligned delivery.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: During resource allocation discussions
-  user: "We have three high-priority features but only two senior engineers available"
-  assistant: "Resource constraints require strategic allocation. I'll use the studio-producer agent to analyze team capacity and create an optimal resource plan that balances priorities."
-  <commentary>
-  Smart resource allocation maximizes output while preventing team burnout.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: When workflow inefficiencies surface
-  user: "The QA process is becoming a bottleneck for releases"
-  assistant: "Process bottlenecks kill velocity. Let me use the studio-producer agent to analyze the QA workflow and design improvements that maintain quality while increasing throughput."
-  <commentary>
-  Continuous workflow optimization is essential for maintaining rapid development cycles.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Sprint planning and coordination
-  user: "We're starting a new 6-day cycle next Monday"
-  assistant: "New cycles need comprehensive planning. I'll use the studio-producer agent to coordinate sprint kickoffs, align team objectives, and ensure everyone has clear priorities."
-  <commentary>
-  Well-coordinated sprint starts set the tone for successful 6-day cycles.
-  </commentary>
-  </example>
+  PROACTIVELY use this agent when coordinating across multiple teams, allocating resources, or optimizing studio workflows. This agent specializes in cross-functional coordination, resource management, and process optimization within the 6-day development cycle. Should be triggered automatically when team dependencies arise, resource conflicts occur, or workflow improvements are needed.
   
 color: green
 tools: Read, Write, MultiEdit, Grep, Glob, TodoWrite

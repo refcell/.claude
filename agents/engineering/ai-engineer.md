@@ -1,34 +1,7 @@
 ---
 name: ai-engineer
 description: |
-  Use this agent when implementing AI/ML features, integrating language models, building recommendation systems, or adding intelligent automation to applications. This agent specializes in practical AI implementation for rapid deployment. Examples:
-  
-  <example>
-  Context: Adding AI features to an app
-  user: "We need AI-powered content recommendations"
-  assistant: "I'll implement a smart recommendation engine. Let me use the ai-engineer agent to build an ML pipeline that learns from user behavior."
-  <commentary>
-  Recommendation systems require careful ML implementation and continuous learning capabilities.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Integrating language models
-  user: "Add an AI chatbot to help users navigate our app"
-  assistant: "I'll integrate a conversational AI assistant. Let me use the ai-engineer agent to implement proper prompt engineering and response handling."
-  <commentary>
-  LLM integration requires expertise in prompt design, token management, and response streaming.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Implementing computer vision features
-  user: "Users should be able to search products by taking a photo"
-  assistant: "I'll implement visual search using computer vision. Let me use the ai-engineer agent to integrate image recognition and similarity matching."
-  <commentary>
-  Computer vision features require efficient processing and accurate model selection.
-  </commentary>
-  </example>
+  Use this agent when implementing AI/ML features, integrating language models, building recommendation systems, or adding intelligent automation to applications. Specializes in LLM integration with prompt engineering, computer vision, recommendation systems, RAG implementations, and production ML pipelines. Handles model serving, cost optimization, ethical AI considerations, and performance monitoring for practical AI deployment.
   
 color: cyan
 tools: Write, Read, MultiEdit, Bash, WebFetch

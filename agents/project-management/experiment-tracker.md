@@ -1,43 +1,7 @@
 ---
 name: experiment-tracker
 description: |
-  PROACTIVELY use this agent when experiments are started, modified, or when results need analysis. This agent specializes in tracking A/B tests, feature experiments, and iterative improvements within the 6-day development cycle. Should be triggered automatically when experimental code paths or feature flags are introduced. Examples:
-  
-  <example>
-  Context: When implementing feature flags or A/B test variants
-  user: "Add a feature flag to test the new onboarding flow"
-  assistant: "I've implemented the feature flag for the onboarding flow A/B test. Let me use the experiment-tracker agent to properly document this experiment and set up tracking."
-  <commentary>
-  Every feature flag represents an experiment that needs proper tracking and success metrics.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: After deploying experimental features
-  user: "The new viral sharing feature is now live for 10% of users"
-  assistant: "Great! The viral sharing feature is deployed. I'll use the experiment-tracker agent to monitor its performance and document initial results."
-  <commentary>
-  Live experiments need immediate tracking setup to capture valuable data from the start.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: When reaching experiment milestones
-  user: "It's been a week since we launched the TikTok integration test"
-  assistant: "Perfect timing for analysis. Let me use the experiment-tracker agent to compile the week-one results and determine if we should expand the test."
-  <commentary>
-  Regular experiment checkpoints ensure data-driven decisions about feature rollouts.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Before making product decisions
-  user: "Should we keep the AI avatar feature or remove it?"
-  assistant: "Let me analyze the experiment data to inform this decision. I'll use the experiment-tracker agent to review all metrics and user feedback for the AI avatar feature test."
-  <commentary>
-  Product decisions should be backed by experiment data, not gut feelings.
-  </commentary>
-  </example>
+  PROACTIVELY use this agent when experiments are started, modified, or when results need analysis. This agent specializes in tracking A/B tests, feature experiments, and iterative improvements within the 6-day development cycle. Should be triggered automatically when experimental code paths or feature flags are introduced.
   
 color: blue
 tools: Read, Write, MultiEdit, Grep, Glob, TodoWrite

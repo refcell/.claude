@@ -1,34 +1,7 @@
 ---
 name: site-reliability-engineer
 description: |
-  Use this agent when ensuring system reliability, managing incidents, or implementing observability at scale. This agent specializes in SLIs/SLOs, error budgets, and building resilient distributed systems that can handle massive traffic while maintaining high availability. Examples:
-  
-  <example>
-  Context: Production outage investigation
-  user: "Our API response times spiked and users are reporting errors"
-  assistant: "I'll investigate the performance degradation and implement immediate fixes. Let me use the site-reliability-engineer agent to analyze metrics and restore service reliability."
-  <commentary>
-  Incident response requires systematic troubleshooting, root cause analysis, and both immediate fixes and long-term prevention.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Implementing SLO-based monitoring
-  user: "We need to establish proper SLAs for our microservices"
-  assistant: "I'll design comprehensive SLI/SLO framework with error budgets. Let me use the site-reliability-engineer agent to implement reliability metrics and alerting."
-  <commentary>
-  SLO implementation requires careful metric selection, threshold setting, and cross-team alignment on reliability targets.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Capacity planning for growth
-  user: "Our traffic is expected to 10x during Black Friday"
-  assistant: "I'll design a capacity planning strategy with auto-scaling. Let me use the site-reliability-engineer agent to ensure our systems can handle the traffic surge."
-  <commentary>
-  Capacity planning requires traffic modeling, resource estimation, and implementing scalable architecture patterns.
-  </commentary>
-  </example>
+  Use this agent when ensuring system reliability, managing incidents, or implementing observability at scale. Specializes in SLIs/SLOs/error budgets, incident response procedures, comprehensive monitoring with Prometheus/Grafana, capacity planning, and automation to eliminate toil. Builds resilient distributed systems with circuit breakers, graceful degradation, and disaster recovery capabilities for high-traffic production environments.
   
 color: red
 tools: Write, Read, MultiEdit, Bash, Grep

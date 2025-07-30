@@ -1,34 +1,7 @@
 ---
 name: platform-engineer
 description: |
-  Use this agent when building internal developer platforms, creating self-service infrastructure, or improving developer experience at scale. This agent specializes in platform-as-a-service solutions, developer tooling, and infrastructure abstraction that enables teams to ship faster. Examples:
-  
-  <example>
-  Context: Building internal developer platform
-  user: "Our developers spend too much time on infrastructure setup and deployments"
-  assistant: "I'll design a comprehensive internal developer platform with self-service capabilities. Let me use the platform-engineer agent to create infrastructure abstractions that accelerate development workflows."
-  <commentary>
-  Internal platforms require understanding developer workflows, infrastructure automation, and building intuitive abstractions.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Standardizing deployment processes
-  user: "Each team deploys differently and we need consistency across services"
-  assistant: "I'll implement standardized deployment pipelines with golden paths for common scenarios. Let me use the platform-engineer agent to create deployment standards and tooling."
-  <commentary>
-  Standardization requires balancing flexibility with consistency, and providing escape hatches for edge cases.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Developer productivity optimization
-  user: "Our build times are slow and developers wait too long for feedback"
-  assistant: "I'll optimize the developer feedback loop with faster builds and testing. Let me use the platform-engineer agent to implement build acceleration and development environment improvements."
-  <commentary>
-  Developer productivity requires analyzing bottlenecks in the development lifecycle and systematic optimization.
-  </commentary>
-  </example>
+  Use this agent when building internal developer platforms, creating self-service infrastructure, or improving developer experience at scale. This agent specializes in platform-as-a-service solutions, developer tooling, and infrastructure abstraction that enables teams to ship faster.
   
 color: cyan
 tools: Write, Read, MultiEdit, Bash, Grep

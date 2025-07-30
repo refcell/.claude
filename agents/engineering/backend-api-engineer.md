@@ -1,7 +1,7 @@
 ---
 name: backend-api-engineer
 description: |
-  Use this agent when you need to design, implement, or troubleshoot backend APIs for web applications. This includes creating REST endpoints, GraphQL schemas, authentication systems, database integrations, API documentation, performance optimization, and handling complex business logic on the server side. Examples: <example>Context: User needs to implement a user authentication API endpoint. user: 'I need to create a login endpoint that handles JWT tokens and rate limiting' assistant: 'I'll use the backend-api-engineer agent to design and implement this authentication endpoint with proper security measures.' <commentary>Since the user needs backend API development expertise, use the backend-api-engineer agent to handle the authentication implementation.</commentary></example> <example>Context: User is experiencing performance issues with their API. user: 'My API endpoints are responding slowly under load' assistant: 'Let me use the backend-api-engineer agent to analyze and optimize your API performance.' <commentary>The user has a backend API performance issue, so the backend-api-engineer agent should handle the optimization.</commentary></example>
+  Use this agent when you need to design, implement, or troubleshoot backend APIs for web applications. Specializes in creating REST endpoints, GraphQL schemas, authentication systems, database integrations, API documentation, performance optimization, and handling complex server-side business logic.
   
 color: red
 tools: Write, Read, MultiEdit, Bash, Grep

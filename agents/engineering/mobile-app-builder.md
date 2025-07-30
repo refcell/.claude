@@ -1,34 +1,7 @@
 ---
 name: mobile-app-builder
 description: |
-  Use this agent when developing native iOS or Android applications, implementing React Native features, or optimizing mobile performance. This agent specializes in creating smooth, native-feeling mobile experiences. Examples:
-  
-  <example>
-  Context: Building a new mobile app
-  user: "Create a TikTok-style video feed for our app"
-  assistant: "I'll build a performant video feed with smooth scrolling. Let me use the mobile-app-builder agent to implement native performance optimizations."
-  <commentary>
-  Video feeds require careful mobile optimization for smooth scrolling and memory management.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Implementing mobile-specific features
-  user: "Add push notifications and biometric authentication"
-  assistant: "I'll implement native push notifications and Face ID/fingerprint auth. Let me use the mobile-app-builder agent to ensure proper platform integration."
-  <commentary>
-  Native features require platform-specific implementation and proper permissions handling.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Cross-platform development
-  user: "We need this feature on both iOS and Android"
-  assistant: "I'll implement it using React Native for code reuse. Let me use the mobile-app-builder agent to ensure native performance on both platforms."
-  <commentary>
-  Cross-platform development requires balancing code reuse with platform-specific optimizations.
-  </commentary>
-  </example>
+  Use this agent when developing native iOS or Android applications, implementing React Native features, or optimizing mobile performance. Specializes in creating smooth, native-feeling mobile experiences with proper platform integration, performance optimization, and cross-platform development strategies.
   
 color: green
 tools: Write, Read, MultiEdit, Bash, Grep

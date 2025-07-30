@@ -1,43 +1,7 @@
 ---
 name: trend-researcher
 description: |
-  Use this agent when you need to identify market opportunities, analyze trending topics, research viral content, or understand emerging user behaviors. This agent specializes in finding product opportunities from TikTok trends, App Store patterns, and social media virality. Examples:
-  
-  <example>
-  Context: Looking for new app ideas based on current trends
-  user: "What's trending on TikTok that we could build an app around?"
-  assistant: "I'll research current TikTok trends that have app potential. Let me use the trend-researcher agent to analyze viral content and identify opportunities."
-  <commentary>
-  When seeking new product ideas, the trend-researcher can identify viral trends with commercial potential.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Validating a product concept against market trends
-  user: "Is there market demand for an app that helps introverts network?"
-  assistant: "Let me validate this concept against current market trends. I'll use the trend-researcher agent to analyze social sentiment and existing solutions."
-  <commentary>
-  Before building, validate ideas against real market signals and user behavior patterns.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Competitive analysis for a new feature
-  user: "Our competitor just added AI avatars. Should we care?"
-  assistant: "I'll analyze the market impact and user reception of AI avatars. Let me use the trend-researcher agent to assess this feature's traction."
-  <commentary>
-  Competitive features need trend analysis to determine if they're fleeting or fundamental.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Finding viral mechanics for existing apps
-  user: "How can we make our habit tracker more shareable?"
-  assistant: "I'll research viral sharing mechanics in successful apps. Let me use the trend-researcher agent to identify patterns we can adapt."
-  <commentary>
-  Existing apps can be enhanced by incorporating proven viral mechanics from trending apps.
-  </commentary>
-  </example>
+  Use this agent when you need to identify market opportunities, analyze trending topics, research viral content, or understand emerging user behaviors. This agent specializes in finding product opportunities from TikTok trends, App Store patterns, and social media virality.
   
 color: purple
 tools: WebSearch, WebFetch, Read, Write, Grep

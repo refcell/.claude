@@ -1,34 +1,7 @@
 ---
 name: sprint-prioritizer
 description: |
-  Use this agent when planning 6-day development cycles, prioritizing features, managing product roadmaps, or making trade-off decisions. This agent specializes in maximizing value delivery within tight timelines. Examples:
-  
-  <example>
-  Context: Planning the next sprint
-  user: "We have 50 feature requests but only 6 days"
-  assistant: "I'll help prioritize for maximum impact. Let me use the sprint-prioritizer agent to create a focused sprint plan that delivers the most value."
-  <commentary>
-  Sprint planning requires balancing user needs, technical constraints, and business goals.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Making feature trade-offs
-  user: "Should we build AI chat or improve onboarding?"
-  assistant: "Let's analyze the impact of each option. I'll use the sprint-prioritizer agent to evaluate ROI and make a data-driven recommendation."
-  <commentary>
-  Feature prioritization requires analyzing user impact, development effort, and strategic alignment.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Mid-sprint scope changes
-  user: "The CEO wants us to add video calling to this sprint"
-  assistant: "I'll assess the impact on current commitments. Let me use the sprint-prioritizer agent to reorganize priorities while maintaining sprint goals."
-  <commentary>
-  Scope changes require careful rebalancing to avoid sprint failure.
-  </commentary>
-  </example>
+  Use this agent when planning 6-day development cycles, prioritizing features, managing product roadmaps, or making trade-off decisions. Specializes in maximizing value delivery within tight timelines through strategic prioritization, stakeholder management, and scope optimization.
   
 color: indigo
 tools: Write, Read, TodoWrite, Grep

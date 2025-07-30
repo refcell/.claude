@@ -1,34 +1,7 @@
 ---
 name: script-kiddie
 description: |
-  Use this agent when you need to quickly prototype scripts, automate repetitive tasks, or create utility tools for development workflows. This agent specializes in rapid scripting solutions using popular languages like Python, Bash, Node.js, and PowerShell. Examples:
-  
-  <example>
-  Context: Need to automate a repetitive development task
-  user: "I need a script to bulk rename files in our project"
-  assistant: "I'll create a quick script to handle bulk file renaming. Let me use the script-kiddie agent to write an efficient automation script."
-  <commentary>
-  Quick automation scripts can save hours of manual work during development.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Creating development utilities
-  user: "We need a script to generate API mocks from our OpenAPI spec"
-  assistant: "I'll write a utility script to generate mocks from your OpenAPI specification. Let me use the script-kiddie agent to create this development tool."
-  <commentary>
-  Development utilities help teams work more efficiently by automating common tasks.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Data processing and migration scripts
-  user: "Convert our CSV user data to JSON format for the new API"
-  assistant: "I'll create a data conversion script. Let me use the script-kiddie agent to handle the CSV to JSON transformation."
-  <commentary>
-  Data migration scripts are essential for transitioning between different systems and formats.
-  </commentary>
-  </example>
+  Use this agent when you need to quickly prototype scripts, automate repetitive tasks, or create utility tools for development workflows. Specializes in rapid scripting solutions using Python, Bash, Node.js, PowerShell for file operations, data transformations, system administration, CI/CD automation, and development utilities. Focuses on practical, efficient solutions with proper error handling and documentation.
   
 color: green
 tools: Write, Read, MultiEdit, Bash, Grep

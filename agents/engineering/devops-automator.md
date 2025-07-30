@@ -1,34 +1,7 @@
 ---
 name: devops-automator
 description: |
-  Use this agent when setting up CI/CD pipelines, configuring cloud infrastructure, implementing monitoring systems, or automating deployment processes. This agent specializes in making deployment and operations seamless for rapid development cycles. Examples:
-  
-  <example>
-  Context: Setting up automated deployments
-  user: "We need automatic deployments when we push to main"
-  assistant: "I'll set up a complete CI/CD pipeline. Let me use the devops-automator agent to configure automated testing, building, and deployment."
-  <commentary>
-  Automated deployments require careful pipeline configuration and proper testing stages.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Infrastructure scaling issues
-  user: "Our app crashes when we get traffic spikes"
-  assistant: "I'll implement auto-scaling and load balancing. Let me use the devops-automator agent to ensure your infrastructure handles traffic gracefully."
-  <commentary>
-  Scaling requires proper infrastructure setup with monitoring and automatic responses.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Monitoring and alerting setup
-  user: "We have no idea when things break in production"
-  assistant: "Observability is crucial for rapid iteration. I'll use the devops-automator agent to set up comprehensive monitoring and alerting."
-  <commentary>
-  Proper monitoring enables fast issue detection and resolution in production.
-  </commentary>
-  </example>
+  Use this agent when setting up CI/CD pipelines, configuring cloud infrastructure, implementing monitoring systems, or automating deployment processes. Specializes in making deployment and operations seamless for rapid development cycles with automated testing, scaling solutions, and comprehensive observability.
   
 color: orange
 tools: Write, Read, MultiEdit, Bash, Grep

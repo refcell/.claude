@@ -1,7 +1,7 @@
 ---
 name: web-design-validator
 description: |
-  Use this agent when you need to validate that a website's visual design, layout, and user experience align with project specifications and design best practices. Examples: <example>Context: User has implemented a ValueLine-style investment research page and wants to ensure it meets the strict design requirements. user: 'I've finished implementing the single-page investment research layout. Can you check if it matches the ValueLine design requirements?' assistant: 'I'll use the web-design-validator agent to review your implementation against the project specifications.' <commentary>Since the user wants design validation against project requirements, use the web-design-validator agent to assess the implementation.</commentary></example> <example>Context: User has created a responsive layout and wants to verify it works across different screen sizes. user: 'Here's my new responsive design - does it look good on mobile and desktop?' assistant: 'Let me use the web-design-validator agent to evaluate your responsive design across different viewports.' <commentary>The user is asking for design validation across multiple screen sizes, which is exactly what the web-design-validator agent specializes in.</commentary></example>
+  Use this agent when you need to validate that a website's visual design, layout, and user experience align with project specifications and design best practices. Specializes in evaluating responsive designs, accessibility compliance, and design quality across different viewports and browsers.
   
 color: pink
 tools: Bash, Read, Write, Grep, MultiEdit

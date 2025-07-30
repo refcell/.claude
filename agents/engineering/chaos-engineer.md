@@ -1,34 +1,7 @@
 ---
 name: chaos-engineer
 description: |
-  Use this agent when implementing chaos engineering practices, testing system resilience, or building fault-tolerant distributed systems. This agent specializes in failure injection, resilience testing, and building systems that gracefully handle unexpected failures. Examples:
-  
-  <example>
-  Context: Testing microservices resilience
-  user: "We want to validate our system can handle service failures gracefully"
-  assistant: "I'll design comprehensive chaos experiments to test system resilience. Let me use the chaos-engineer agent to implement failure injection and measure system recovery."
-  <commentary>
-  Chaos engineering requires systematic failure injection, careful monitoring, and analysis of system behavior under stress.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Building fault-tolerant architecture
-  user: "Our system goes down when any single service fails"
-  assistant: "I'll implement resilience patterns and chaos testing to build fault tolerance. Let me use the chaos-engineer agent to identify weak points and strengthen system resilience."
-  <commentary>
-  Fault tolerance requires implementing circuit breakers, bulkheads, and other resilience patterns while testing them thoroughly.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Disaster recovery validation
-  user: "We need to test our disaster recovery procedures regularly"
-  assistant: "I'll create automated chaos experiments to validate DR procedures. Let me use the chaos-engineer agent to simulate various disaster scenarios and measure recovery times."
-  <commentary>
-  Disaster recovery testing requires realistic failure scenarios and automated validation of recovery procedures.
-  </commentary>
-  </example>
+  Use this agent when implementing chaos engineering practices, testing system resilience, or building fault-tolerant distributed systems. Specializes in systematic failure injection, resilience patterns (circuit breakers, bulkheads), game day exercises, and disaster recovery testing. Creates chaos experiments with proper blast radius controls, implements monitoring and safety measures, and builds organizational resilience culture through controlled failure testing.
   
 color: crimson
 tools: Write, Read, MultiEdit, Bash, Grep

@@ -1,34 +1,7 @@
 ---
 name: release-engineer
 description: |
-  Use this agent when managing software releases, implementing deployment strategies, or optimizing release processes at scale. This agent specializes in release automation, deployment pipelines, and ensuring safe, reliable software delivery. Examples:
-  
-  <example>
-  Context: Implementing blue-green deployments
-  user: "We need zero-downtime deployments for our critical services"
-  assistant: "I'll implement blue-green deployment strategy with automated rollback capabilities. Let me use the release-engineer agent to create safe, zero-downtime release processes."
-  <commentary>
-  Blue-green deployments require careful infrastructure setup, traffic routing, and rollback mechanisms for safety.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Release pipeline optimization
-  user: "Our releases take 6 hours and frequently fail halfway through"
-  assistant: "I'll optimize the release pipeline with parallelization and better error handling. Let me use the release-engineer agent to create faster, more reliable deployments."
-  <commentary>
-  Release optimization requires analyzing bottlenecks, implementing parallel processing, and building robust error recovery.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Multi-environment release coordination
-  user: "Coordinate releases across dev, staging, and production environments"
-  assistant: "I'll build automated promotion pipelines with proper validation gates. Let me use the release-engineer agent to implement controlled multi-environment releases."
-  <commentary>
-  Multi-environment releases require coordination, validation, and proper promotion strategies between environments.
-  </commentary>
-  </example>
+  Use this agent when managing software releases, implementing deployment strategies, or optimizing release processes at scale. Specializes in CI/CD pipelines, blue-green/canary deployments, automated rollbacks, multi-environment coordination, and release safety measures. Builds infrastructure-as-code deployment automation, compliance workflows, and comprehensive monitoring to enable frequent, reliable software delivery.
   
 color: indigo
 tools: Write, Read, MultiEdit, Bash, Grep

@@ -1,34 +1,7 @@
 ---
 name: integration-wizard
 description: |
-  Use this agent when connecting disparate systems, building API integrations, or creating seamless data flows between applications. This agent specializes in third-party integrations, webhook systems, and complex data synchronization challenges. Examples:
-  
-  <example>
-  Context: Connecting multiple SaaS tools
-  user: "We need to sync user data between Salesforce, HubSpot, and our internal CRM"
-  assistant: "I'll create a robust integration pipeline for multi-system data sync. Let me use the integration-wizard agent to handle the complex data mapping and synchronization."
-  <commentary>
-  Multi-system integrations require careful data mapping, conflict resolution, and error handling.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Payment system integration
-  user: "Integrate Stripe payments with our subscription management and accounting systems"
-  assistant: "I'll build a comprehensive payment integration with proper webhook handling. Let me use the integration-wizard agent to ensure reliable payment processing across all systems."
-  <commentary>
-  Payment integrations require high reliability, proper error handling, and secure data transmission.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Legacy system modernization
-  user: "Connect our modern React app to legacy SOAP services"
-  assistant: "I'll create a bridge between modern and legacy systems. Let me use the integration-wizard agent to handle protocol translation and data transformation."
-  <commentary>
-  Legacy integrations often require protocol translation, data format conversion, and careful error handling.
-  </commentary>
-  </example>
+  Use this agent when connecting disparate systems, building API integrations, or creating seamless data flows between applications. Specializes in REST/GraphQL/SOAP integrations, webhook processing, OAuth authentication, data synchronization pipelines, and third-party service connections (payments, CRMs, communication platforms). Handles complex data mapping, event processing, and enterprise system bridges with comprehensive error handling and monitoring.
   
 color: orange
 tools: Write, Read, MultiEdit, Bash, Grep, WebFetch

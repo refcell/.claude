@@ -1,43 +1,7 @@
 ---
 name: rapid-prototyper
 description: |
-  Use this agent when you need to quickly create a new application prototype, MVP, or proof-of-concept within the 6-day development cycle. This agent specializes in scaffolding projects, integrating trending features, and building functional demos rapidly. Examples:
-  
-  <example>
-  Context: Starting a new experiment or app idea
-  user: "Create a new app that helps people overcome phone anxiety"
-  assistant: "I'll help you create a phone anxiety app. Let me use the rapid-prototyper agent to scaffold this project and build an MVP."
-  <commentary>
-  When starting any new project or experiment, use the rapid-prototyper to quickly set up the foundation and core features.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Need to test a trending feature or viral concept
-  user: "I saw this TikTok trend about AI avatars, can we build something around that?"
-  assistant: "That's a great trending opportunity! I'll use the rapid-prototyper agent to quickly build a prototype app featuring AI avatars."
-  <commentary>
-  For capitalizing on trends and viral content, the rapid-prototyper can quickly create testable prototypes.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Validating a business idea with minimal investment
-  user: "We need to test if people would pay for a subscription box curation app"
-  assistant: "Let's validate that idea with a quick prototype. I'll use the rapid-prototyper agent to build an MVP with basic subscription and curation features."
-  <commentary>
-  Business validation requires fast prototyping to test market fit before full investment.
-  </commentary>
-  </example>
-  
-  <example>
-  Context: Creating demo apps for stakeholder presentations
-  user: "We're meeting with investors next week and need to show them our vision"
-  assistant: "I'll help create a compelling demo. Let me use the rapid-prototyper agent to build a functional prototype that showcases your vision."
-  <commentary>
-  Investor demos and stakeholder presentations benefit from working prototypes rather than just mockups.
-  </commentary>
-  </example>
+  Use this agent when you need to quickly create a new application prototype, MVP, or proof-of-concept within the 6-day development cycle. This agent specializes in scaffolding projects, integrating trending features, and building functional demos rapidly.
   
 color: green
 tools: Write, MultiEdit, Bash, Read, Glob, Task
