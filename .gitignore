@@ -14,3 +14,9 @@ projects
 
 # Ignore todos
 todos
+
+# Ignore local scripts
+scripts
+
+# Ignore backups
+backups
