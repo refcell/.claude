@@ -24,7 +24,7 @@ Welcome to the neural backbone of my Claude configuration—a cyberdelic fusion 
 ```
 ┌─ CONFIGURATION MATRIX ──────────────────────────────┐
 │  STATUS: [████████████████████████████████] ONLINE  │
-│  AGENTS: 40+ specialized neural patterns loaded     │
+│  AGENTS: 60+ specialized neural patterns loaded     │
 │  CMDS:   3 quantum command sequences ready          │
 │  POWER:  ∞ (limited only by imagination)            │
 └──────────────────────────────────────────────────────┘
@@ -116,6 +116,49 @@ The **trinity** of command sequences that bend reality to our will:
 - **🏗️ infrastructure-maintainer** — System reliability guardian
 - **⚖️ legal-compliance-checker** — Regulatory adherence
 - **🎧 support-responder** — User assistance protocols
+
+### **〉SALES DIVISION**
+*Revenue generation specialists*
+
+- **🎯 lead-generator** — Prospect identification and qualification
+- **🤝 sales-closer** — Deal negotiation and closing specialist
+- **📧 outreach-specialist** — Multi-channel outbound campaign expert
+
+### **〉CUSTOMER SUCCESS**
+*Retention & expansion specialists*
+
+- **🚀 onboarding-specialist** — User activation and early success
+- **🔄 retention-expert** — Churn reduction and lifecycle management
+- **📈 expansion-strategist** — Account growth and upsell optimization
+
+### **〉HUMAN RESOURCES**
+*Talent & culture architects*
+
+- **👥 talent-recruiter** — Strategic hiring and candidate sourcing
+- **🏢 culture-builder** — Company culture and employee engagement
+- **📊 performance-coach** — Performance management and development
+
+### **〉EXECUTIVE COMMAND**
+*C-level strategic leadership*
+
+- **👑 ceo-strategist** — Vision setting and strategic decision making
+- **⚙️ cto-advisor** — Technology strategy and engineering leadership
+- **📱 cmo-strategist** — Marketing strategy and brand positioning
+- **💰 fundraising-advisor** — Investment strategy and investor relations
+
+### **〉BUSINESS DEVELOPMENT**
+*Strategic growth & partnerships*
+
+- **🤝 partnership-developer** — Strategic alliance and channel development
+- **🌍 market-expander** — Geographic and vertical market expansion
+- **🏢 acquisition-analyst** — M&A strategy and due diligence
+
+### **〉COMPETITIVE INTELLIGENCE**
+*Market & threat analysis*
+
+- **🔍 competitor-analyst** — Competitive research and positioning analysis
+- **📊 market-researcher** — Industry analysis and market sizing
+- **⚠️ threat-monitor** — Risk assessment and threat detection
 
 ### **〉BONUS PROTOCOLS**
 *Easter eggs & enhancement modules*
