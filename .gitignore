@@ -20,3 +20,10 @@ scripts
 
 # Ignore backups
 backups
+
+
+# Others
+memAgent
+.mcp.json
+settings.local.json
+.credentials.json
