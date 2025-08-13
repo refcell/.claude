@@ -1,6 +1,6 @@
 # Some random files
 *.js
-settings.json
+settings.json.backup*
 leaderboard.json
 
 # Ignore shell snapshots

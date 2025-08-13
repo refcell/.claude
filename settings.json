@@ -1,0 +1,110 @@
+{
+  "env": {
+    "MAX_THINKING_TOKENS": "32000"
+  },
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "statusLine": {
+    "type": "command",
+    "command": "input=$(cat); current_dir=$(echo \"$input\" | jq -r '.workspace.current_dir'); model_name=$(echo \"$input\" | jq -r '.model.display_name'); git_status=''; if git rev-parse --git-dir >/dev/null 2>&1; then branch=$(git symbolic-ref --short HEAD 2>/dev/null || git rev-parse --short HEAD 2>/dev/null); if [ -n \"$(git status --porcelain 2>/dev/null)\" ]; then git_status=\" git:(${branch}) ✗\"; else git_status=\" git:(${branch})\"; fi; fi; printf \"\\033[1;32m➜\\033[0m \\033[36m$(basename \"$current_dir\")\\033[0m\\033[1;34m${git_status}\\033[0m | \\033[33m${model_name}\\033[0m\""
+  },
+  "feedbackSurveyState": {
+    "lastShownTime": 1754068890362
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/andreasbigger/.claude/hooks/sessions-hook-start"
+          },
+          {
+            "type": "command",
+            "command": "/Users/andreasbigger/.local/bin/cstats stats --period daily 2>/dev/null || true"
+          }
+        ]
+      },
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/andreasbigger/.claude/hooks/sessions-hook-start"
+          },
+          {
+            "type": "command",
+            "command": "/Users/andreasbigger/.local/bin/cstats stats --period daily 2>/dev/null || true"
+          }
+        ]
+      },
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/andreasbigger/.claude/hooks/session-start-hook.js",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/andreasbigger/.claude/hooks/session-start-hook.js",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/andreasbigger/.claude/hooks/session-start-hook.js",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "/Users/andreasbigger/.claude/hooks/sessions-hook-start"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/andreasbigger/.claude/hooks/sessions-hook-stop"
+          }
+        ]
+      },
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/andreasbigger/.claude/hooks/guardian-hook.js",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/andreasbigger/.claude/hooks/guardian-hook.js",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
